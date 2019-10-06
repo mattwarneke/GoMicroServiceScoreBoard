@@ -1,0 +1,9 @@
+---
+applications:
+- name: matt-warneke-go
+  instances: 1
+  memory: 64MB
+  host: matt-warneke-go
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  env:
+    GOPACKAGENAME : matt-warneke-go
